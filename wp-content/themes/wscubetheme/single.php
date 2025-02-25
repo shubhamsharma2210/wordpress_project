@@ -1,5 +1,5 @@
 <?php get_header();
-     
+
 ?>
 
 <!DOCTYPE html>
@@ -32,3 +32,5 @@
 
 
 <?php get_footer(); ?>
+
+<!--  single.php ek WordPress theme template file hoti hai jo individual blog post ko display karne ke liye use hoti hai. Jab koi visitor kisi single blog post ko open karta hai, toh WordPress single.php file ka use karke us post ka content show karta hai. -->

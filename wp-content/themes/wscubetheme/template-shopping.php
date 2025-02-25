@@ -22,7 +22,7 @@ get_header();
 <?php display_shopping_posts(); ?>
 
 
-// get new category
+ <!-- get new category -->
 <div class="news-categories">
     <?php
     $cuisine = get_terms(['taxonomy' => 'cuisine', 'hide_empty' => false, 'orderby' => 'name', 'order' => 'ASC']);

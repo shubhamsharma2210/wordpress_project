@@ -221,3 +221,54 @@ function create_restorant_taxonomy()
 }
 
 add_action('init', 'create_restorant_taxonomy', 0);
+
+
+function modify_menu_items($items, $args) {
+    if (is_user_logged_in()) {
+        // Current user info
+        $current_user = wp_get_current_user();
+        $logout_url = wp_logout_url(home_url());
+
+        // "Login" aur "Register" buttons remove karein
+        foreach ($items as $key => $item) {
+            if ($item->title == 'Login' || $item->title == 'Register') {
+                unset($items[$key]);
+            }
+        }
+
+        // "Logout" button dynamically add karein
+        $logout_item = new stdClass();
+        $logout_item->ID = 9999; // Unique ID (just a random high number)
+        $logout_item->db_id = 9999; // Required to avoid error
+        $logout_item->title = 'Logout';
+        $logout_item->menu_item_parent = 0;
+        $logout_item->url = $logout_url;
+        $logout_item->current = false; // Avoids "Undefined property" error
+        $logout_item->classes = []; // Required for WP compatibility
+
+        $items[] = $logout_item;
+    } else {
+        // Agar user logged out hai, "Logout" button remove karein
+        foreach ($items as $key => $item) {
+            if ($item->title == 'Logout') {
+                unset($items[$key]);
+            }
+        }
+    }
+
+    return $items;
+}
+
+// Hook karein WordPress ke menu filter ko
+add_filter('wp_nav_menu_objects', 'modify_menu_items', 10, 2);
+
+
+function restrict_menu_access_for_guests() {
+    if (!is_user_logged_in() && !is_page('login') && !is_page('register')) {
+        // Agar user logged in nahi hai aur login/register page par bhi nahi hai to redirect karein
+        wp_redirect(home_url('/login'));
+        exit;
+    }
+}
+add_action('template_redirect', 'restrict_menu_access_for_guests');
+

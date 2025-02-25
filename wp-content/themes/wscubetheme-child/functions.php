@@ -9,6 +9,4 @@ add_action('wp_enqueue_scripts', 'ws_cube_tech_child_enqueue_styles');
 
 add_theme_support('post-thumbnails');
 
-// Internal Database URL-:  postgresql://wscubetech_user:8QDbbsLAlMoELR8GR8XGnL8XMmv4fUJJ@dpg-cuunl45svqrc73dod33g-a/wscubetech
 
-// External Database URL-: postgresql://wscubetech_user:8QDbbsLAlMoELR8GR8XGnL8XMmv4fUJJ@dpg-cuunl45svqrc73dod33g-a.oregon-postgres.render.com/wscubetech
