@@ -1,0 +1,696 @@
+/* footer section start */
+.about-usdebider {
+    max-width: 1923px;
+    width: 100%;
+    height: 1px;
+    background-color: var( --blue);
+}
+
+.footer-row {
+    display: flex;
+    padding: 56px 0 66px 0;
+    gap: 108px;
+}
+
+.footer-logo {
+    width: 13.3%;
+}
+
+.five-footer-catagory {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    margin-bottom: 31px;
+}
+
+.col-catagory a {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--blue);
+    ;
+}
+
+.footer-last {
+    background-color: var(--blue);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-last p {
+    padding: 9px;
+}
+
+footer img {
+    max-width: 212.88px;
+    width: 100%;
+    padding-bottom: 27.5px;
+}
+
+span.txtsl-hide {
+    font-size: 16px;
+    color: #000;
+    max-width: 121px;
+    width: 100%;
+    background-color: #E8E8E8;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/* english dropdown */
+.header-image-slw {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: absolute;
+    width: 150px;
+    right: 0;
+    top: 35px;
+    z-index: 2;
+    display: none;
+
+}
+
+.LfMenu-Section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: max-content;
+    justify-content: flex-end;
+    padding-left: 37px;
+}
+
+.LfMenu-Section .icons-flag {
+    display: flex;
+    align-items: center;
+}
+
+
+.Lng-Ul {
+    list-style: none;
+    background: #00000029;
+
+}
+
+.Lng-Ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown-connect {
+    /* display: none;
+    position: absolute;
+    background-color: #FDFAFA;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    */
+}
+
+.spacer-W {
+    display: block;
+    width: 100%;
+    height: 10px;
+}
+
+.dropdown-connect ul,
+.dropdown-connect ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+
+.dropdown-connect {
+    background: #F7F7F7;
+    border-bottom: 1px solid #707070;
+    padding: 5px 0 0 0;
+}
+
+.dropdown-connect ul li {
+    color: #000;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-connect ul li a {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.dropdown-connect ul li:last-child {
+    border-bottom: 0;
+}
+
+.dropdown-connect ul li.input-option .txtsl-hide {
+    margin-left: 8px;
+    font-family: "Poppins-Medium";
+    color: #000;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+.dropdwn-relative {
+    position: relative;
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    gap: 75px;
+}
+
+.icons-flag .icon {
+    background-color: var(--blue);
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    width: 64px;
+    padding: 5px 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* eng dropdown end */
+
+/* footer section end */
+
+
+/* buyers and knowledge base  section start */
+.buyers-txt {
+    width: 50%;
+    background-color: var(--blue);
+    color: #fff;
+    padding: 68px 0;
+}
+
+.buyers-guidesec p {
+    padding: 11.16px 0 39.17px 0;
+}
+
+.txt-w {
+    max-width: 490px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.buyers-guidesec {
+    padding: 81.82px 0 61.19px 0;
+}
+
+.button-buyers {
+    background: #fff;
+    border-radius: 30px;
+    color: var(--white);
+    padding: 14px 42px;
+    display: inline-block;
+    width: max-content;
+    transition: .2s;
+    cursor: pointer;
+    color: var( --blue);
+    text-align: center;
+}
+
+.byersguide-wrap {
+    display: flex;
+}
+
+.button-buyers a {
+
+    margin-right: 16.66px;
+}
+
+.bg-clr {
+    background-color: #F39562;
+
+}
+
+a.clor-a {
+    color: #F39562;
+}
+
+/* buyers and knowledge base  section end */
+
+
+/* icon section start  css*/
+.follow-nerds-icon {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 338px;
+    width: 100%;
+}
+
+.follow-nerds-icon img {
+    margin-right: 58.28px;
+    color: #343434;
+    padding: 21.19px 0 56px 0;
+}
+
+/* icon section end css*/
+
+
+/* listen sec start css */
+/* .listen-sec{
+    padding: 65.45px 0 81.82px 0;
+} */
+.listentxt-mx-w {
+    max-width: 532px;
+    width: 100%;
+
+}
+
+.listentxt-mx-w h3 {
+    padding: 30.5px 0 8.5px 0;
+}
+
+.listen-vd {
+    padding: 19.53px 0 15px 0;
+}
+
+.listencard-w {
+    max-width: 258px;
+    width: 100%;
+    color: #1F1F1F;
+    padding: 15px 0 25.17px 0;
+}
+
+.listen-ul li img {
+    max-width: 16.91px;
+    width: 100%;
+}
+
+.listen-btn {
+    padding-top: 50.76px;
+}
+
+.listen-ul ul {
+    display: flex;
+    gap: 10.24px;
+}
+
+.listen-ul ul li {
+    max-width: 118px;
+    width: 100%;
+    color: #1F1F1F;
+}
+
+.listen-btn a {
+    background: var(--blue);
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 24px;
+    display: inline-block;
+    width: max-content;
+    transition: .2s;
+    line-height: 18px;
+}
+
+.listencards-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 62px;
+    width: 100%;
+}
+
+
+.Podcasts-btn a {
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #1F1F1F;
+    border-radius: 20px;
+    padding: 4px 14px;
+    line-height: 15px;
+    color: #000;
+}
+
+/* listen sec end css */
+
+/* knowledge-base section css stert */
+.knowledge-basesec {
+    margin: 0 0 60.45px 0;
+    background-color: var(--blue);
+}
+
+.knowledge-basesec img {
+    max-width: 188px;
+    width: 100%;
+    padding: 66.85px 0 28.73px 0;
+
+}
+
+.knowledge-basesec h3 {
+    color: #FFFFFF;
+}
+
+.knowledge-basesec p {
+    max-width: 666.79px;
+    width: 100%;
+    padding: 8.5px 0 46.95px 0;
+    color: #FFFFFF;
+}
+
+.all-cardsknowledge img {
+    max-width: 209px;
+    width: 100%;
+    padding: 23.16px 24px 23.16px 24px;
+    background: #fff;
+    border-radius: 30px;
+    margin-bottom: 17.64px;
+}
+
+a.font-16text.clr-white {
+    border: 1px solid var(--unnamed-color-ffffff);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.Podcasts-btn h3 {
+    max-width: 258px;
+    width: 100%;
+    padding: 12px 0 64.76px 0;
+}
+
+.wrap-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 62px;
+    width: 100%;
+}
+
+.knowledge-btn {
+    background: #fff;
+    border-radius: 30px;
+    color: var(--white);
+    padding: 9px 23px;
+    display: inline-block;
+    width: max-content;
+    transition: .2s;
+    cursor: pointer;
+    color: var( --blue);
+
+}
+
+.center-btn {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 46.5px;
+}
+
+/* knowledge-base section css end */
+
+/* guide section css start */
+.guide-mx-w {
+    max-width: 750px;
+    width: 100%;
+}
+
+.guide-mx-w h3 {
+    padding: 22.94px 0 18.94px 0;
+}
+
+.guide-ul-wrap {
+    padding: 19px 0 46.47px 0;
+}
+
+.guide-vd-cards h3 {
+    padding: 19.65px 0 19px 0;
+}
+
+.guide-vd-cards {
+    max-width: 220px;
+    width: 100%;
+}
+
+.guide-txtpd img {
+    padding: 54.92px 0 19px 0;
+}
+
+.guidecard-w {
+    max-width: 206px;
+    width: 100%;
+    color: #1F1F1F;
+}
+
+.guidecards-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 44.81px;
+    max-width: 750px;
+    width: 100%;
+}
+
+.guide-clr {
+    background-color: var(--blue);
+    color: #FFFFFF;
+}
+
+.vr-reviewbuttons .btn-pd {
+    padding: 26.5px 0 12px 0;
+}
+
+.pd-bottom {
+    padding-bottom: 46.47px;
+}
+
+
+/* comment pd */
+.guide-ul-wrap .pd-bottomli {
+    padding-bottom: 8.11px;
+}
+
+/* comment pd end */
+/* guide section css end */
+
+/* review sec css start */
+/* .popular-menu h3 {
+    max-width: 264px;
+    width: 100%;
+} */
+/* side menu bar */
+.popular-menu {
+    background-color: #F7F7F7;
+    max-width: 381px;
+    width: 100%;
+    border-radius: 20px;
+}
+.popular-menu{
+    margin-bottom: 78px;
+}
+.bottomheader-gap a img{
+    color: #000;
+}
+.wrap-content {
+    display: flex;
+    gap: 45px;
+    justify-content: space-between;
+}
+
+.gap-ullist {
+    padding: 0 43px 0;
+    color: #000000;
+}
+
+.heading-txtpopular h3 {
+    padding: 35px 43px;
+
+}
+
+.gap-ullist li {
+
+    border-bottom: 1px solid #000;
+    padding: 15px 0 15px 0;
+}
+
+.gap-ullist a {
+    color: #000000;
+}
+
+.popular-btn {
+    text-align: center;
+    padding: 49px 0 42px 0;
+}
+/* side menu bar */
+.vr-reviewbuttons {
+    display: flex;
+    gap: 14.63px;
+}
+
+.review-txt h3 {
+    padding: 17.11px 0 18px 0;
+}
+
+.review-vd img {
+    padding: 38.94px 0 26.5px 0;
+}
+
+.h3-pd h3 {
+    padding: 12px 0 19px 0;
+}
+
+
+/* review sec css end */
+
+/* XR-device css start */
+.guide-vd .text-center {
+    text-align: center;
+}
+
+.xr-usdebider {
+    max-width: 750px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--blue);
+    margin: 47.5px 0 47.5px 0;
+}
+
+.XR-txt h3 {
+    padding: 23.45px 0 14.41px 0;
+}
+
+.XR-vd img {
+    padding: 40.67px 0 19.95px 0;
+}
+
+.xr-button {
+    margin-top: 39.05px;
+}
+
+/* XR-device css start */
+
+
+/* Google requires css start */
+.Google-requires {
+    padding: 69.76px 0 79px 0;
+}
+
+.Google-requires img {
+    max-width: 750px;
+    width: 100%;
+
+}
+
+.pd-google {
+    padding: 26.5px 0 6.33px 0;
+    gap: 16.63px;
+}
+
+.head-txtgoogle {
+    max-width: 749px;
+    width: 100%;
+}
+
+.head-txtgoogle p {
+    padding: 10.83px 0 19.76px 0;
+}
+
+.pd-10 {
+    padding: 19.76px 0 81.6px 0;
+}
+
+/* Google requires css start */
+
+.google-txtwrap {
+    display: flex;
+    gap: 86px;
+    justify-content: space-between;
+}
+
+/* header-start */
+.top-headernerds {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.header-nerds-Star {
+    margin-right: auto;
+    display: flex;
+}
+
+.header-products {
+    gap: 28px;
+}
+
+.header-products,
+.topheader {
+    display: flex;
+    font-family: 'Poppins-Bold';
+    font-size: 18px;
+}
+
+.header-products li a {
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 18px;
+}
+
+.header-products li {
+    list-style: none;
+    /* padding-right: 37px; */
+}
+
+.Vr-nerds-logo {
+    margin: 0 105.83px 0 0;
+    max-width: 178.17px;
+    display: flex;
+    align-items: center;
+}
+
+.topheader {
+    padding: 37px 0;
+    align-items: center;
+}
+
+ .bottom-header {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 9px 14px #00000029;
+    border: 1px solid #70707029;
+    opacity: 1;
+} 
+
+.header-btn a {
+
+    border: 2px solid #83B2AA;
+    border-radius: 20px;
+    padding: 9.5px 25px;
+    line-height: 15px;
+    color: #83B2AA;
+}
+
+.font-icon svg {
+    max-width: 20.18px;
+    width: 100%;
+}
+
+.topheader .header-products a:hover {
+    color: #FF586B;
+
+}
+.bottomheader-gap{
+    /* gap: 42.25px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0;
+}
+.upper-header{
+    background-color: var(--blue);
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* header-END*/

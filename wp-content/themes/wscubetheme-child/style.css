@@ -1,0 +1,19 @@
+/*
+Theme Name: wscubetheme Child
+Description: This is the child theme of WS Cube Tech.
+Author: shubham sharma
+Author URI: http://example.com
+Template: wscubetheme
+Version: 1.0
+
+*/
+
+/* Parent theme ki styling ko import karne ke liye */
+/* @import url("../wscubetheme/style.css"); */
+
+.header_container {
+    width: 100%;
+    padding: 15px !important;
+    background-color: transparent !important;
+   
+}

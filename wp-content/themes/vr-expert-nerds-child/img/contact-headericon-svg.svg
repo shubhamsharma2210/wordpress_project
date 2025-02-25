@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Group_3821" data-name="Group 3821" transform="translate(-1600 -8)">
+    <path id="Icon_material-person-outline" data-name="Icon material-person-outline" d="M12.091,7.447a1.6,1.6,0,1,1-1.6,1.6,1.6,1.6,0,0,1,1.6-1.6m0,6.853c2.261,0,4.645,1.112,4.645,1.6v.838H7.447V15.9c0-.487,2.383-1.6,4.645-1.6m0-8.3a3.046,3.046,0,1,0,3.046,3.046A3.045,3.045,0,0,0,12.091,6Zm0,6.853C10.058,12.853,6,13.873,6,15.9v2.284H18.183V15.9C18.183,13.873,14.124,12.853,12.091,12.853Z" transform="translate(1600.409 7.5)" fill="#fff" opacity="0.5"/>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(1600 8)" fill="none" stroke="#fff" stroke-width="2" opacity="0.5">
+      <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+      <circle cx="12.5" cy="12.5" r="11.5" fill="none"/>
+    </g>
+  </g>
+</svg>
